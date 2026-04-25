@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form practic</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <!--Forms-->
+    <h1>Forms - 1</h1>
+
+    <form>
+      <fieldset>
+        <legend>Registering</legend>
+            <label for="username">username</label>
+            <br>
+            <input 
+                type="text"
+                id="username" name="username" 
+                required
+                placeholder="please enter username">
+            <br>
+            <label>email</label>
+            <br>
+            <input
+                type="email"
+                id="email"
+                name="email_name"
+                required
+                placeholder="user@user.com">
+            <br>
+            <!--Password-->
+            <label for="password_id">Password</label>
+            <br>
+            <input type="password" name="password" id="password">
+            <br>
+
+            <label for="message">message</label>
+            <textarea 
+                id="message"
+                name="message_name" 
+                required
+                placeholder="enter message"
+                rows="3"
+                cols="20"> 
+            </textarea>
+        </fieldset>
+        
+        <br>
+        <fieldset>
+          <legend>input types</legend>
+            <button type="register">Register</button>
+            <button type="reset">Reset</button>
+            <button type="button">In Java</button>
+            <br>
+            <hr>
+
+            <!--Types-->
+          
+
+            <!--Color-->
+            <input type="color">
+            <br>
+
+            <!--date-->
+            <input type="date">
+            <br>
+            <br>
+
+            <!--File-->
+            <input type="file" accept="image/*">
+            <br>
+            <br>
+
+            <!--Range-->
+            <input type="range" min="10" max="20" value="14">
+            <br>
+            <br>
+
+            <!--Checkbox-->
+            <input type="checkbox" id="checkbox_id"
+            name="Subscribe" value="true">
+            <label for="checkbox_id">Subscribe</label>
+            <br>
+            <br>
+
+            <!--Radio-->
+            <input type="radio" name="radio_name" id="radio_id_1" value="option_1">
+            <label for="radio_id_1"> option 1</label>
+            <br>
+            <input type="radio" name="radio_name" id="radio_id_2" value="option_2">
+            <label for="radio_id_2">option 2</label>
+            <br>
+            <br>
+        </fieldset>
+
+        <fieldset> 
+          <legend> selectOption</legend>
+            <!--Select-->
+            <label>choose ur country</label>
+            <br>
+            <select name="select_name" id="select_id">
+                <option value="France">France</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <br>
+
+            <label for="country-id">country suggestion</label>
+            <br>
+            <input
+              list="country-list" 
+              id="country-id"
+              name="country-id"
+              type="text">
+            <datalist id="country-list">
+              <option>australia</option>
+              <option>austria</option>
+              <option>iran</option>
+              <option>iraq</option>
+            </datalist>
+        </fieldset>         
+    </form>
+
+  </body>
+  </html>
