@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/Vazir.ttf");
+}
+
+* {
+  font-family: Vazir;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0e1019;
+}
+
+.modal {
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #22242f;
+}
+
+.modal h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #ffffff90;
+}
+
+.modal p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #ffffff60;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: ffffff5;
+  background: transparent;
+  color: #ffffff60;
+}
+
+.input-group input {
+  direction: ltr;
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+.input-group button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: ffffff;
+  background-color: #3d518f;
+}

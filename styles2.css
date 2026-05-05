@@ -1,0 +1,54 @@
+.paragraph-1 {
+  font-size: 20px;
+}
+
+.paragraph-2 {
+  font-family: Tahoma;
+}
+
+.paragraph-3 {
+  font-weight: bold;
+}
+
+.paragraph-4 {
+  background-color: gray;
+  text-align: right;
+}
+.paragraph-5 {
+  text-decoration: overline underline line-through wavy pink;
+}
+
+.paragraph-6 {
+  text-transform: capitalize;
+}
+
+.paragraph-7 {
+  margin: 20px;
+  width: 80px;
+  line-height: 1.5;
+}
+
+.paragraph-8 {
+  word-spacing: 20px;
+}
+
+.paragraph-9 {
+  border: 3px solid plum;
+  white-space: pre;
+}
+
+.paragraph-10 {
+  border: 3px solid palevioletred;
+  text-shadow: 20px 5px 2px black;
+}
+
+.paragraph-11 {
+  border: 3px solid pink;
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.paragraph-12 {
+  text-indent: 20px;
+}

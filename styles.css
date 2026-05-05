@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+  font-size: 45px;
+}
+p {
+  color: #fff;
+  font-size: 30px;
+}
+#Second {
+  color: pink;
+  background-color: gray;
+  padding: 20px;
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  border: 2px dotted black;
+  border-radius: 10px;
+  background-image: url(./butterfly.jpg);
+}
+
+.paragraph {
+  color: green;
+  font-family: Tahoma, sans-serif;
+}
+
+div p {
+  color: hotpink;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
