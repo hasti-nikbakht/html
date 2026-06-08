@@ -1,0 +1,13 @@
+h1,
+p {
+  display: inline;
+}
+
+strong {
+  display: block;
+}
+em {
+  background-color: pink;
+  display: inline-block;
+  width: 30 px;
+}

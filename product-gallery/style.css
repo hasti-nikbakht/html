@@ -1,0 +1,19 @@
+.product-gallery {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.main-image img {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.thumbnails {
+  margin-top: 10px;
+}
+.thumbnails img {
+  cursor: pointer;
+  margin-left: 10px;
+}

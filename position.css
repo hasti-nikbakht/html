@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+}
+a {
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+span {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+}

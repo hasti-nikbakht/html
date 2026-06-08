@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "vazir";
+  src: url(Vazir.woff2);
+}
+p {
+  font-family: "vazir";
+}

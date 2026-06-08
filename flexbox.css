@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+
+.container {
+  background-color: pink;
+  color: white;
+  max-width: 700px;
+  height: 100px;
+}
+.container div {
+  background-color: hotpink;
+  width: 100px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container div {
+  flex-shrink: 0;
+  flex-basis: 150px;
+}

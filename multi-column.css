@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 16px;
+}
+.multicolumn-container {
+  column-width: 100px;
+  column-rule: 1px solid pink;
+  column-gap: 60px;
+}
+.multicolumn-container h2 {
+  column-span: all;
+}

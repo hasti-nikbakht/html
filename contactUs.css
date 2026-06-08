@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("Vazir.woff2");
+}
+
+* {
+  font-family: "Vazir";
+}
+
+body {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contact-container {
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form-group textarea {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+textarea {
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #6e8efb, #a777e3);
+  width: 100%;
+}
+button:hover {
+  background-image: linear-gradient(to right, #a777e3, #6e8efb);
+}

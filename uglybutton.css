@@ -1,0 +1,17 @@
+.login {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+}
+.register {
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
+.btn {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}

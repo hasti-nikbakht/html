@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+.container a {
+  display: block;
+}
+.link-1 {
+  text-decoration: none;
+}
+.a {
+  text-decoration: none;
+}
+
+a:link {
+  color: teal;
+}
+
+a:link:hover {
+  color: red;
+}
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+a:link:active {
+  color: yellow;
+  text-decoration: none;
+}
+.list {
+  list-style-position: inside;
+  list-style-type: square;
+}
+.list li {
+  line-height: 2;
+}

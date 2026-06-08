@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  padding: 10px;
+}
+
+.image-1 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.image-1:hover {
+  box-shadow: 15px 15px 15px 15px black inset;
+}
+.image-2 {
+  margin-top: 20px;
+  display: block;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 100px;
+}

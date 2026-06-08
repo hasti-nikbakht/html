@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 16px;
+}
+.container {
+  background-color: pink;
+  color: white;
+  padding: 20px;
+  height: 600px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
+}
+
+.container div {
+  background-color: hotpink;
+}
+
+.blog {
+  background-color: pink;
+  color: white;
+  height: 600px;
+
+  grid-template-columns: 2fr 2fr 0fr 40px;
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "head head head head"
+    "content content . side"
+    "links links links links";
+}
+.blog header {
+  background-color: hotpink;
+  color: black;
+
+  grid-area: head;
+}
+.blog main {
+  background-color: gray;
+  grid-area: content;
+}
+.blog aside {
+  background-color: palevioletred;
+  grid-area: side;
+}
+.blog footer {
+  background-color: rgb(134, 3, 90);
+  color: black;
+  grid-area: links;
+}
